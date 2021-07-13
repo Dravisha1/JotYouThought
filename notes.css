@@ -1,0 +1,50 @@
+#body{
+    --color_primary : #098368c0;
+    --color_primary_dark :#196454; 
+    --color_secondary : #066774;
+    --color_error : #f82206;
+    --color_success : rgb(59, 197, 17);
+    --border-radius: 4px;
+
+    margin: 0px;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background-color: #1C2833;
+}
+
+#nav{
+    background-color: #098368c0;
+    padding: 15px;
+    height: 10%;
+}
+
+#brand{
+    color: white;
+    font: bold;
+    font-size: 20px;
+}
+
+#navbtn{
+    background-color: white;
+    color: black;
+}
+
+#notes{
+    display: flex;
+}
+
+#title{
+    width: 150px;
+}
+
+.noteCard{
+    /* height: 200px; */
+    padding: 10px;
+}
+
+#noNotes{
+    text-decoration: white;
+}
+
